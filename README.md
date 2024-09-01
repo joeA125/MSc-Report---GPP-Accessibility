@@ -11,6 +11,11 @@ xarray
 pyhdf
 pygrib
 
+#### If using CDS API for ERA5 Land    
+cdsapi   
+
+Pease see below for further instructions reagrding this.     
+
 ### For preprocessing 
 pykrige
 
