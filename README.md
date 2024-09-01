@@ -6,10 +6,10 @@ My master thesis revolved around developing a non-complex remote-sourced model f
 Full list of all used packages is incuded at the bottom of this file. These are the packages I needed to install to my environment. For reference I used Jupyter notebook via Ananconda Navigator.
 
 ### For importing 
-netCDF4
-xarray
-pyhdf
-pygrib
+netCDF4    
+xarray    
+pyhdf    
+pygrib    
 
 #### If using CDS API for ERA5 Land    
 cdsapi   
@@ -17,14 +17,14 @@ cdsapi
 Pease see below for further instructions reagrding this.     
 
 ### For preprocessing 
-pykrige
+pykrige    
 
-### For modelling
-cartopy
-networkx
-xgboost
-lightgbm
-shap
+### For modelling 
+cartopy    
+networkx    
+xgboost    
+lightgbm    
+shap    
 
 ## Notebook Running Order 
 1 - FluxNet Sampling    
