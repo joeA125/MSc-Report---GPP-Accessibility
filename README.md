@@ -14,7 +14,7 @@ pygrib
 #### If using CDS API for ERA5 Land    
 cdsapi   
 
-Pease see below for further instructions reagrding this.     
+Pease see below for further instructions regarding this.     
 
 ### For preprocessing 
 pykrige    
@@ -81,7 +81,7 @@ Fluxnet Data can be downloaded from: https://fluxnet.org/
   Requires account creation first.   
 
 #### Sampling 
-FluxNet Sampling Notebook uses the 'Fluxnet Site Descs' excel to create a site sample for further analysis. Sample used in this analysis is located as 'Fluxnet_Site_Sample.xlsx' for variable identification and for final modelling - the 4 added sites are found at end of FluxNet Sampling Notebook. The 4 removed sites are mentioned in the Thesis Report notebook, and also if all steps are followed in the FluxNet Data notebook the the variable investigation dataset and validation datases for final modelling will be made correctly. Also please see above for site information. 
+FluxNet Sampling Notebook uses the 'Fluxnet Site Descs' excel to create a site sample for further analysis. Sample used in this analysis is located as 'Fluxnet_Site_Sample.xlsx' for variable identification and for final modelling - the 4 added sites are found at end of FluxNet Sampling Notebook. The 4 removed sites are mentioned in the Thesis Report notebook, and if all steps are followed in the FluxNet Data notebook the variable investigation dataset and validation dataset for final modelling will be made correctly. Also please see above for site information. 
 
 ##### Downloading Process 
 After account creation see Data -> Download Data on the webpage above. For this project, FLUXNET2015 CC-BY-4.0 Data from FLUXNET2015 Product was used. Ensure FULLSET product is selected and choose the 19 specific sites used in the analysis. (Can be found in 'Fluxnet_Site_Sample.xlsx' for variable analysis, the 4 added files are shown at the end of FluxNet Sampling Notebook). After downloading, unzip folders and use the 'FULLSET_DD' files. These are the daily averaged files. 
@@ -105,7 +105,7 @@ Your UID and API KEY can be found in your account information.
 
 ##### Variable Analysis
 See dates used above.    
-Variables needed can be seen in ERA5_Land Notebook. Select required dates and all 24 hours. Use a sub-region, sub-region is 1 significant figures around desired centre locoations.  
+Variables needed can be seen in ERA5_Land Notebook. Select required dates and all 24 hours. Use a sub-region, sub-region is 1 significant figures around desired centre locations.  
 
 Example:   
 AU_CPR location = (-34.0021, 140.5891). Sub-region = (-34.0 North, 140.6 East, -34.1 South, 140.5 west).
@@ -215,4 +215,4 @@ shap
 
 # Running 
 Once all above downloading is completed successfully, which does take time! Follow the order shown above, ensure FluxNet Sampling is first and Thesis Report is last.     
-Please experiment with different sites and different timeframes, my timeframe is short due to tge timeliness of submission, and using different datasets for feature combination identification and then modelling is sub-optimal but required under this scenario. If you find anything interesting please report it back to me!   
+Please experiment with different sites and different timeframes, my timeframe is short due to the timeliness of submission, and using different datasets for feature combination identification and then modelling is sub-optimal but required under this scenario. If you find anything interesting please report it back to me!   
